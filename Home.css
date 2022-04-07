@@ -1,0 +1,45 @@
+.form{
+    background-color: rgba(255, 255, 255, 0.452);
+    
+    width: 20%;
+    
+    margin-top: 10%;
+    margin-left: 40%;
+    
+    padding-bottom: 50px;
+    border:2px brown outset;
+    
+    
+}
+.pp{
+    border-radius: 50%;
+    margin-top: -50px;
+    
+    border:2px brown solid;
+}
+body{
+    background-image: url("Iron-Man-Takes-Aim.jpg");
+    background-size: cover;
+}
+
+input{
+    margin-top: 60px;
+    border-top: 100px;
+    border-left: 100px;
+    border-right:100px ;
+    border-color: rgb(255, 0, 0);
+
+    height: 20px; background-color:rgba(255, 228, 196, 0);
+}
+::placeholder{
+    color: black;
+    font-size:15px ;
+    font-weight: bolder;
+}
+input[type="submit"]{
+    background-color: brown;
+    height: 50px;
+    width: 100%;
+    font-size: 30px;
+    
+}
